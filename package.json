@@ -1,0 +1,24 @@
+{
+  "name": "nodejs_practice",
+  "version": "1.0.0",
+  "description": "Practice for creating backend using node and mySQL",
+  "type": "module",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/kgb0447/nodejs_crud.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "npx nodemon databas.js",
+    "start" : "npx nodemon index.js"
+  },
+  "author": "Kael",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mysql2": "^3.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
